@@ -19,7 +19,6 @@ create table ALUNO(
     turno VARCHAR(50) not null,
     email VARCHAR(50) not null,
     telefone CHAR(14) not null,
-    horas INTEGER not null,
     PRIMARY KEY(IDAluno)
 );
 
